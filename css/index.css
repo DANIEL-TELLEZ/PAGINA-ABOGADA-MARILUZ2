@@ -1,14 +1,12 @@
 body{
-	background:#F6DDCC  ;
+	background:#999999 ;
 }
 
-
+/* encabesado_____________________________________________*/
 #logo{
-	width:60% ;
-	
+	width:60% ;	
 	margin-top: 1%;
 	margin-left: 1%;
-
 }
 
 .container1{
@@ -16,7 +14,7 @@ body{
 }
 
 .nombrep{
-	color:  #C70039  ;
+	color:  #F5EEF8    ;
 
 }
 
@@ -24,9 +22,24 @@ body{
 	margin-top: 2%;
 }
 
+@media only screen and (max-width: 770px) {
+    .nombrep {
+        
+        display:none;
+}
+}
+
+@media only screen and (max-width: 770px) {
+    #logo {
+        
+        width: 100%;
+}
+}
+/*_____________________________________________________________navegacion principal*/
 .navegacionp{
-	border-color:  #000000;
 	
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 	margin-right: 10%;
 	margin-left: 10%;
 }
@@ -35,8 +48,9 @@ body{
 .navbar-brand{
 	margin-left:50%;
 	color: 	#000000;
+	float: none;
 }
-
+/*______________________________________________________________body cuepo*/
 .carrusel{
 	margin-left: 1%;
 }
@@ -54,6 +68,8 @@ footer{
 	text-align: center;
 }
 
+/* ____________________________________________________foto abogado */
+
 .fotoabogado{
 	margin-bottom: 1%;
 	margin-left: 6%;
@@ -62,6 +78,56 @@ footer{
 
 .imsAbogado{
 	height: 100%;
-	width: 100%;
+	width: 100%;	
+}
+
+.nombre-cargo{
+	text-align: center;
+}
+
+.centrar-telefono{
+	text-align: center;
+	color: #000;
+}
+#fotoTelefono{
+	height: 50px;
+	width: 50px;
+}
+
+
+@media only screen and (max-width: 770px) {
+ .fotoabogado{
+        
+        width: 100%;
+        margin-top: 1%;
+}
+}
+/*_______________________________________________redes spciales*/
+
+.redesSociales{
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+	width: 50%;	
+	height:50px;
+}
+
+.contianerRedes{
+	margin-right:20%;
+	margin-left: 20%;
 	
+}
+
+
+/*__________________________________________________servivio*/
+#serviciostitulo{
+	text-align: center;
+	margin-top: 2%;
+}
+
+.centrartxservicios{
+	text-align: center;
+}
+
+#servivios{
+	background-color: #FFFFFF;
 }
