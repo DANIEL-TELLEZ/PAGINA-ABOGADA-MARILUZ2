@@ -1,0 +1,67 @@
+body{
+	background:#F6DDCC  ;
+}
+
+
+#logo{
+	width:60% ;
+	
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+
+.container1{
+	background: #000;
+}
+
+.nombrep{
+	color:  #C70039  ;
+
+}
+
+.divTitulo{
+	margin-top: 2%;
+}
+
+.navegacionp{
+	border-color:  #000000;
+	
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+.navbar-brand{
+	margin-left:50%;
+	color: 	#000000;
+}
+
+.carrusel{
+	margin-left: 1%;
+}
+
+footer{
+	background-color: #000;
+}
+
+.footer{
+	margin-top: 1%;
+}
+
+.textofooter{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.fotoabogado{
+	margin-bottom: 1%;
+	margin-left: 6%;
+	
+}
+
+.imsAbogado{
+	height: 100%;
+	width: 100%;
+	
+}
