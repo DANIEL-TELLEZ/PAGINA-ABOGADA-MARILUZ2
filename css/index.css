@@ -1,20 +1,25 @@
 body{
-	background:#999999 ;
+	background-image:  url("30000.jpg");
+
 }
 
-/* encabesado_____________________________________________*/
+
+/* encabesado_____________________________________________ logo y titulo*/
 #logo{
-	width:60% ;	
+
+	width:100% ;
+	height: 50%;	
 	margin-top: 1%;
-	margin-left: 1%;
+
 }
 
 .container1{
 	background: #000;
+	height:130px;
 }
 
 .nombrep{
-	color:  #F5EEF8    ;
+	color:  #A48604;
 
 }
 
@@ -117,11 +122,20 @@ footer{
 	
 }
 
+#containerRedes{
+	background-color:#EAEDED  ;
+}
+
+#tituloRedes{
+	text-align: center;
+color: #85929E;
+margin-top: 2%;
+}
 
 /*__________________________________________________servivio*/
 #serviciostitulo{
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 0.5%;
 }
 
 .centrartxservicios{
@@ -131,3 +145,6 @@ footer{
 #servivios{
 	background-color: #FFFFFF;
 }
+
+/*___________________________________________________________carrusel*/
+
