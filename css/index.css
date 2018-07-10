@@ -11,7 +11,7 @@ body{
 
 	width:200PX;
 	height: 100PX;	
-	margin-top: 2%;
+	margin-top: 3%;
 	margin-left: 10%;
 	margin-bottom: 5%;
 
@@ -77,18 +77,6 @@ text-align: center;
 	margin-left: 1%;
 }
 
-footer{
-	background-color: #000;
-}
-
-.footer{
-	margin-top: 1%;
-}
-
-.textofooter{
-	color: #FFFFFF;
-	text-align: center;
-}
 
 /* ____________________________________________________foto abogado */
 
@@ -131,6 +119,7 @@ footer{
 	margin-bottom: 0.5%;
 	width: 50%;	
 	height:50px;
+
 }
 
 .contianerRedes{
@@ -140,7 +129,8 @@ footer{
 }
 
 #containerRedes{
-	background-color:#EAEDED  ;
+	background-color:#EAEDED;
+	margin-left:1%;
 }
 
 #tituloRedes{
@@ -161,7 +151,24 @@ margin-top: 2%;
 
 #servivios{
 	background-color: #FFFFFF;
+	margin-left: 1%;
 }
 
 /*___________________________________________________________carrusel*/
 
+
+/*____________________________________________________________________footer*/
+footer{
+	background-color: #000;
+	margin-left: 1%;
+}
+
+.footer{
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.textofooter{
+	color: #FFFFFF;
+	text-align: center;
+}
